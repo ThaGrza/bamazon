@@ -33,7 +33,14 @@ DROP DATABASE IF EXISTS bamazon_db;
  INSERT INTO products ( product_name, department_name, price, stock_quantity)
  VALUE ("Dice", "toys", 1.00, 30);
  INSERT INTO products ( product_name, department_name, price, stock_quantity)
- VALUE ("Cards", "toys", 2.50, 15);
+ VALUE ("Low Orbit Ion Cannon", "software", 29.99, 6);
+ INSERT INTO products ( product_name, department_name, price, stock_quantity)
+ VALUE ("Guizmo", "pets", 500, 1);
+ INSERT INTO products ( product_name, department_name, price, stock_quantity)
+ VALUE ("Pink Panther Diamond", "jewelry", 50000, 1);
+
+
+
  
  -- Displays table --
  SELECT * FROM products;
