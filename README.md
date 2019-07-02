@@ -9,3 +9,6 @@ Once a successful sale as been made the application ends. If an order cannot be 
 
 ###Development
 As the sole developer I created the database which was statically populated with items, then created a terminal based front using javascript node to interact with the database.
+
+###Link To Bamazon Video
+[![bamazon Demo](https://youtu.be/srVbgeZTg8s "Bamazon Demo")
