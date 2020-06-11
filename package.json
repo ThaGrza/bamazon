@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/agriswold7/bamazon/issues"
   },
-  "homepage": "https://github.com/agriswold7/bamazon#readme"
+  "homepage": "https://github.com/agriswold7/bamazon#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }

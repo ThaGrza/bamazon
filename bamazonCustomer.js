@@ -1,13 +1,14 @@
 // Requires dependencies for node app.
 var mysql = require("mysql")
 var inquirer = require("inquirer")
+require('dotenv').config()
 
 // Creates connection to sql server.
 var connection = mysql.createConnection({
-    host: "localhost",
+    host: DB_HOST,
     port: 3306,
-    user: "root",
-    password: "loldave1",
+    user: DB_USER,
+    password: DB_PASS,
     database: "bamazon_db"
 });
 
@@ -85,11 +86,7 @@ function purchase() {
                         console.log("Sorry, there is not enough " + productInfo.product_name + " in stock.")
                         setTimeout(function() { displayInventory() }, 4000)
                     }
-
-
                 }
             })
-
-
         })
 }
